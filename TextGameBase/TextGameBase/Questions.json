@@ -1,0 +1,21 @@
+[
+    {
+      "Id":1,
+      "Text":"Bem vindo",
+      "Responses":
+      [
+            {
+                "Sequence": 1,
+                "Text":"Começar Jogo",
+                "TargetId": 2
+            },
+
+            {
+                "Sequence": 2,
+                "Text":"Sair",
+                "TargetId": 0
+            }
+
+      ]
+    }
+]
