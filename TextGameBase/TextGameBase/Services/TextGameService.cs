@@ -33,8 +33,9 @@ namespace TextGameBase.Services
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine( "Erro 427: " + ex.Message);
             }
 
             var currentQuestions = questionsRepository.GetAll();
