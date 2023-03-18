@@ -97,7 +97,7 @@
                   "Sequence": 1,
                   "Text":"Uma lanterna e um bastão",
                   "TargetId": 8,
-                  "Item": { "Key": "Lanterna e " }
+                  "Item": { "Key": "LANTERNA" }
               }, 
 
               {
