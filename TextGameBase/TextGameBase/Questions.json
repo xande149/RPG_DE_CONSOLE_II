@@ -1,7 +1,7 @@
 [
     {
       "Id":1,
-      "Text":"Bem vindo",
+      "Text": "Bem vindo <NOME>\nVocê é um orgulhoso tripulante á bordo da USS Explorer\nAtualmente em missão explorando os cofins do galáxia",
       "Responses":
       [
             {
@@ -20,7 +20,7 @@
 
     {
         "Id":2,
-        "Text": "Você é um orgulhoso tripulante na USS Explorer\nAtualmente em missão explorando os cofins do galáxia\nVocê acorda com um estrondo e barulho de sirenes, você levanta ainda cambaleando.",
+        "Text": "Você acorda com um estrondo e barulho de sirenes, você levanta ainda cambaleando.",
         "Responses":
         [
               {
@@ -40,7 +40,7 @@
 
     {
         "Id":3,
-        "Text": "O quarto está escuro, iluminado apenas pelas lanternas de emergência,\nmas você lembra onde está cada coisa",
+        "Text": "O quarto está escuro, iluminado apenas pelas lanternas de emergência,\nmas você lembra vagamente onde está cada coisa",
         "Responses":
         [
               {
@@ -52,9 +52,66 @@
               {
                   "Sequence": 2,
                   "Text":"Procurar objeto para usar de arma",
-                  "TargetId": 4
-              }
+                  "TargetId": 6
+              },
   
+              {
+                "Sequence": 3,
+                "Text":"Olhar pela janela do quarto",
+                "TargetId": 7
+              }
         ]
+    },
+
+    {
+        "Id":4,
+        "Text": "Ao abrir a porta você é atacado inesperadamente por alguém, e não teve tempo para reagir",
+        "Responses":
+        [
+
+            {
+                "Text":"Você morreu",
+                "TargetId": 0
+            }
+        ]
+    },
+
+    {
+        "Id":5,
+        "Text": "você olha para a cama, ainda anestesiado pela susto, apenas há um branco em sua mente, enquanto pensa em arrumar a cama\n Alguém lhe surpreende pelas costas",
+        "Responses":
+        [
+            {
+                "Text":"Você morreu",
+                "TargetId": 0
+            }
+        ]
+    },
+
+    {
+        "Id":6,
+        "Text": "Agora em estado de alerta\nVocê encontra e pega: ",
+        "Responses":
+        [
+              {
+                  "Sequence": 1,
+                  "Text":"Uma lanterna e um bastão",
+                  "TargetId": 8,
+                  "Item": { "Key": "Lanterna e " }
+              }, 
+
+              {
+                "Sequence": 2,
+                "Text":"Uma caderno e uma caneta",
+                "TargetId": 9
+              },
+
+              {
+                "Sequence": 3,
+                "Text":"Uma garrafa de água e remédios",
+                "TargetId": 9
+              }
+      ]
     }
+
 ]

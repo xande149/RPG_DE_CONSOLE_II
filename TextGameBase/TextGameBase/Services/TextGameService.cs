@@ -8,6 +8,18 @@ namespace TextGameBase.Services
     {
         private QuestionsRepository questionsRepository;
 
+        public Dictionary<string, string> Valores { get; set; } = new Dictionary<string, string>();
+
+        public List<Item> Inventory { get; set; } = new List<Item>();
+
+        public string TratarValor(string valor)
+        {
+            foreach (var chave in Valores.Keys)
+            {
+                valor = valor.Replace(chave, Valores[chave]);
+            }
+            return valor;
+        }
         public TextGameService()
         {
             questionsRepository = new QuestionsRepository("TextGame.db");
