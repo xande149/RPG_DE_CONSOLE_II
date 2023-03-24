@@ -1,7 +1,7 @@
 [
     {
       "Id":1,
-      "Text": "Bem vindo <NOME>\nVocê é um orgulhoso tripulante á bordo da USS Explorer\nAtualmente em missão explorando os cofins do galáxia",
+      "Text": "Bem vindo <NOME>\nVocê é um orgulhoso tripulante á bordo da Working Togheter Explorer\nAtualmente voltando de uma missão de exploração ao planeta H2K202",
       "Responses":
       [
             {
@@ -17,4 +17,593 @@
             }
       ]
     },
+
+    {
+                "Id": 2,
+                "Text": "Você acorda, cambaleante, na sala de sono criogênico\nSua cápsula abortou o seu sono criogênico após sofrer sérios danos\nClaramente algo está errado… mas os efeitos colaterais da criogenia dificultam seu pensamento\nO ambiente está escuro e iluminado apenas pelos Leds de emergência piscando em vermelho\nO cheiro nauseante de podridão quase lhe faz vomitar…\nVocê volta a si ao ouvir um estrondo forte e metálico no fundo da sala, você sabe que não está sozinho ali...",
+                "Responses": 
+        [
+            {
+                "Sequence": 1,
+                "Text": "Você pergunta: Hey, quem está aí? Quem é você?",
+                "TargetId": 40101
+            },
+
+            {
+                "Sequence": 2,
+                "Text": "Você se levanta, correndo em direção a porta",
+                "TargetId": 40102
+            },
+
+            {
+                "Sequence": 3,
+                "Text": "Você se levanta, procurando uma saída tentando não fazer barulho",
+                "TargetId": 3
+            }
+        ]
+    },
+
+    {
+            "Id": 40101,
+            "Text": "Ainda nauseabundo, e em meio a escuridão você consegue discernir uma silhueta não humana, em questão de segundos ela pula sobre você",
+            "TargetId": 0
+        },
+
+        {
+            "Id": 40102,
+            "Text": "Ainda nauseabundo, e em meio a escuridão você corre aos tropeços até a porta, chamando a atenção indesejada, você sente algo vindo em sua direção",
+            "TargetId": 0
+    },
+    
+    {
+        "Id": 3,
+        "Text": "Ainda nauseabundo, tentando conter o medo você vagarosamente levanta\nSeus olhos vão se acostumando á escuridão e você nota\nCorpos de outros tripulantes pelo chão. você percebe uma porta, e vai até ela sem olhar para trás e evitando fazer qualquer tipo barulho\nVocê chega ao corredor do nivel II com exito sem chamar a atenção do inimigo desconhecido\nO ambiente está mais iluminado e você toma fôlego por um minuto",
+        "TargetId": 200
+    },
+
+    {
+            "Id": 99,
+            "Text": "Elevador: O elevador dá acesso aos principais compartimentos da nave.\nSão eles:",
+            "Sequences":
+    [
+        {
+            "Sequence": 1,
+            "Text": "Corredor nível I ( Sala de Controle, Laboratório, Observatório )",
+            "TargetId": 100
+        },
+
+        {
+            "Sequence": 2,
+            "Text": "Corredor nível II ( Quartos da Tripulação, Banheiros, Refeitório, Sala de Sono Criogênico, Enfermaria )",
+            "TargetId": 200
+        },
+
+        {
+            "Sequence": 3,
+            "Text": "Corredor nível III ( Hangar, Sala de Máquinas, Armazenamento )",
+            "TargetId": 300
+        }
+    ]
+},
+        
+        {
+            "Id": 100,
+            "Text": "Corredor nível I: Dá acesso para:",
+            "Sequences":
+        [
+            {
+                "Sequence": 1,
+                "Text": "Sala de Controle",
+                "TargetId": 101
+            },
+
+            {
+             "Sequence": 2,
+                "Text": "Laboratório",
+                "TargetId": 102
+            },
+
+            {
+                "Sequence": 3,
+                "Text": "Sala de Comunicação",
+                "TargetId": 103
+            },
+
+            {
+             "Sequence": 4,
+                "Text": "Elevador",
+                "TargetId": 99
+            }
+        ]
+    },
+
+    {
+        "Id": 101,
+        "Text": "Você entra na Sala de Controle - A sala de controle é o centro nervoso da WT Explorer\nA sala é equipada com computadores, monitores e outros equipamentos para rastrear a posição da nave\nmonitorar a saúde dos sistemas e monitorar tarefas de manutenção",
+        "Responses":
+        [
+            {
+                "Sequence": 1,
+                "Text": "Voltar ao corredor",
+                "TargetId": 100
+            }
+        ]
+    },
+
+    {
+          "Id": 102,
+          "Text": "Você entra no Laboratório - O laboratório é usado para realizar experimentos científicos durante a viagem espacial\nEle contém equipamentos de análise, instrumentos de medição e outras ferramentas para coletar e analisar dados\nTambém contém telescópios, câmeras e outros equipamentos de observação para coletar dados e imagens do espaço,",
+          "Responses":
+          [
+            {
+              "Sequence": 1,
+              "Text": "Voltar ao corredor",
+              "TargetId": 100
+            }
+          ]
+        },
+
+        {
+          "Id": 103,
+          "Text": "Você entra na Sala de Comunicação - A sala de comunicação é usada para se comunicar com outras naves ou bases durante a viagem espacial\nEla contém equipamentos de comunicação de alta tecnologia, como rádios de longo alcance, antenas e outros dispositivos,",
+          "Responses":
+          [
+            {
+              "Sequence": 1,
+              "Text": "Voltar ao corredor",
+              "TargetId": 100
+            }
+          ]
+        },
+
+        {
+          "Id": 200,
+          "Text": "Corredor nível II: Dá acesso para:",
+          "Responses":
+          [
+            {
+              "Sequence": 1,
+              "Text": "Quartos da Tripulação",
+              "TargetId": 201
+            },
+
+            {
+              "Sequence": 2,
+              "Text": "Banheiros",
+              "TargetId": 202
+            },
+
+            {
+              "Sequence": 3,
+              "Text": "Refeitório",
+              "TargetId": 303
+            },
+
+            {
+              "Sequence": 4,
+              "Text": "Câmaras de Sono Criogênico",
+              "TargetId": 304
+            },
+
+            {
+              "Sequence": 5,
+              "Text": "Enfermaria",
+              "TargetId": 305
+            },
+
+            {
+              "Sequence": 6,
+              "Text": "Elevador",
+              "TargetId": 99
+            }
+          ]
+        },
+
+        {
+          "Id": 201,
+          "Text": "Você entra nos Quartos da tripulação - Os quartos da tripulação são onde os membros da tripulação descansam durante a viagem espacial\nEles contém beliches, camas, armários para armazenar roupas e itens pessoais e outras comodidades básicas,",
+          "Responses":
+          [
+            {
+              "Sequence": 1,
+              "Text": "Voltar ao corredor",
+              "TargetId": 200
+            },
+
+            {
+              "Sequence": 2,
+              "Text": "Verificar beliche",
+              "TargetId": 20101
+            },
+
+            {
+              "Sequence": 3,
+              "Text": "verificar armários",
+              "TargetId": 20102
+            },
+
+            {
+              "Sequence": 4,
+              "Text": "Verificar gavetas",
+              "TargetId": 20103
+            }
+          ]
+        },
+
+        {
+        
+                "id": 20101,
+                "text": "Nada de mais nas beliches.",
+                "responses":
+                [
+                  {
+                    "sequence": 1,
+                    "text": "Deitar na beliche",
+                    "targetId": 40103
+                  }
+                ]
+              },
+
+              {
+                "id": 40103,
+                "text": "Você com certeza está cansado o suficiente para pegar no sono, e o seu corpo fica desprotegido enquanto dorme",
+                "targetId": 0
+              },
+
+              {
+                "id": 20102,
+                "text": "Você encontra uma série de itens que podem ser úteis.",
+                "responses":
+                [
+                  {
+                    "sequence": 1,
+                    "text": "Pegar Lanterna",
+                    "targetId": 40102
+                  },
+
+                  {
+                    "sequence": 2,
+                    "text": "Pegar a coleção de revistas adultas",
+                    "targetId": 40102
+                  },
+
+                  {
+                    "sequence": 3,
+                    "text": "Pegar cigarros",
+                    "targetId": 40102
+                  },
+
+                  {
+                    "sequence": 4,
+                    "text": "Pegar comunicador",
+                    "targetId": 40102
+                  },
+
+                  {
+                    "sequence": 5,
+                    "text": "voltar a atenção para os quartos",
+                    "targetId": 201
+                  }
+                ]
+              },
+
+              {
+                "id": 20103,
+                "text": "Você encontra uma série de itens que podem ser úteis",
+                "responses":
+                [
+                  {
+                    "sequence": 1,
+                    "text": "Cuecas",
+                    "targetId": 20103
+                  },
+
+                  {
+                    "sequence": 2,
+                    "text": "Cartão de Acesso",
+                    "targetId": 20103
+                  },
+
+                  {
+                    "sequence": 3,
+                    "text": "Chicletes",
+                    "targetId": 20103
+                  },
+
+                  {
+                    "sequence": 4,
+                    "text": "Arma de fogo",
+                    "targetId": 20103
+                  },
+
+                  {
+                    "sequence": 5,
+                    "text": "voltar a atenção para os quartos",
+                    "targetId": 201
+                  }
+                ]
+              },
+
+              {
+                  "Id": 202,
+                  "Text": "Você entra na área de Banheiros - São pequenos e compactos, mas contêm as mesmas comodidades básicas que um banheiro terrestre\nO banheiro está sujo de sangue, o espelho danificado, o último box da área de chuveiros contém uma cena horrível, envolvendo algo que costumava ser um humano,",
+                  "Responses":
+                  [
+                    {
+                      "Sequence": 1,
+                      "Text": "Voltar ao corredor",
+                      "TargetId": 200
+                    },
+
+                    {
+                      "Sequence": 2,
+                      "Text": "Fazer suas necessidades básicas",
+                      "TargetId": 20101
+                    },
+
+                    {
+                      "Sequence": 3,
+                      "Text": "Fazer o número 2",
+                      "TargetId": 40104
+                    }
+                  ]
+                },
+
+                {
+                  "Id": 20201,
+                  "Text": "Você ignora a situação geral do banheiro para se aliviar",
+                  "Responses":
+                  [
+                    {
+                      "Sequence": 1,
+                      "Text": "Voltar atenção para o banheiro",
+                      "TargetId": 202
+                    },
+
+                    {
+                      "Sequence": 2,
+                      "Text": "Voltar ao corredor",
+                      "TargetId": 200
+                    }
+                  ]
+                },
+
+        {
+            "Id": 203,
+            "Text": "Você entra no Refeitório - A sala de refeições é onde a tripulação se alimenta durante a viagem espacial\nEla contém mesas e cadeiras e um balcão de servir e equipamentos de cozinha para preparar alimentos e bebidas,",
+            "Responses":
+        [
+            {
+                "Sequence": 1,
+                "Text": "Voltar ao corredor",
+                "TargetId": 200
+            },
+
+            {
+                "Sequence": 1,
+                "Text": "Explorar a geladeira",
+                "TargetId": 20301
+            },
+
+            {
+                "Sequence": 2,
+                "Text": "Explorar fogão",
+                "TargetId": 20302
+            },
+
+            {
+                "Sequence": 3,
+                "Text": "Pegar litro de bebida",
+                "TargetId": 20303
+            },
+
+            {
+                "Sequence": 4,
+                "Text": "Voltar para o corredor",
+                "TargetId": 200
+            }            
+        ]
+},
+
+{
+        "Id": 20301,
+        "Text": "A geladeira contém alguns insumos para realizar uma refeição,",
+        "Responses":
+    [
+        {
+            "Sequence": 1,
+            "Text": "Pegar sanduíche",
+            "TargetId": 20301
+        },
+
+        {
+            "Sequence": 2,
+            "Text": "Pegar Refrigerante",
+            "TargetId": 20301
+        },
+
+        {
+        "Sequence": 3,
+        "Text": "Pegar água",
+        "TargetId": 20301
+        },
+
+        {
+            "Sequence": 4,
+            "Text": "Voltar a atenção para a cozinha",
+            "TargetId": 203
+        }
+    ]
+},
+
+{
+    "Id": 20302,
+    "Text": "Perto do fogão você encontra um isqueiro e algumas panelas,",
+    "Responses":
+    [
+        {
+            "Sequence": 1,
+            "Text": "Pegar o isqueiro",
+            "TargetId": 20301
+        },
+
+        {
+            "Sequence": 2,
+            "Text": "Fazer um rango com o que tiver na geladeira",
+            "TargetId": 40107
+        },
+
+        {
+            "Sequence": 3,
+            "Text": "Voltar a atenção para a cozinha",
+            "TargetId": 203
+        }
+    ]
+},
+
+{
+        "Id": 40107,
+        "Text": "Você gasta um tempo no preparo de um prato sofisticado\n acende o fogão e começa a cozinha\nO cheiro chama atenção indesejada e quando você percebe o invasor está de pé na sua frente,",
+        "TargetId": 0
+},       
+
+{
+    "Sequence": 3,
+    "Text": "Voltar a atenção para a cozinha,",
+    "TargetId": 203
+},
+
+{
+    "Id": 204,
+    "Text": "Você entra na sala de Câmaras de Sono Criogênico - São feitas para acomodar os tripulantes nas longas viagens espaciais\nA sala em sí está uma bagunça, pouca iluminação, cheiro de podridão de corpos e restos por todo lado,",
+    "Responses":
+    [
+
+    {
+        "Sequence": 1,
+        "Text": "Voltar ao corredor",
+        "TargetId": 200
+    }
+
+    ]
+},
+
+{
+    "Id": 205,
+    "Text": "Você entra na Enfermaria - A enfermaria é onde os membros da tripulação podem ser tratados em caso de emergência médica\nEla contém suprimentos médicos, equipamentos de diagnóstico e outros equipamentos para ajudar a tratar problemas de saúde\nHá algumas pílulas em cima de uma mesinha,",
+    "Responses":
+    [
+        {
+            "Sequence": 1,
+            "Text": "Voltar ao corredor",
+            "TargetId": 200
+        },
+
+        {
+            "Sequence": 2,
+            "Text": "Verificar armários",
+            "TargetId": 20501
+        },
+
+        {
+            "Sequence": 3,
+            "Text": "Tratar ferimentos",
+            "TargetId": 20502
+        },
+
+        {
+            "Sequence": 4,
+            "Text": "ingerir as pílulas que estão em cima da mesa",
+            "TargetId": 40118
+        }
+    ]
+},
+
+{
+    "Id": 40118,
+    "Text": "Você ingere as pílulas visando acabar a dor de cabeça mas o efeito acontece ao contrário\nVocê fica tonto e quase desacordado chamando por ajuda mas algo que você não queria\nVeio ao seu chamado,",
+    "TargetId": 0
+},
+
+{
+    "Id": 20501,
+    "Text": "Você encontra uma série de itens que podem ser úteis",
+    "Responses":
+    [
+        {
+            "Sequence": 1,
+            "Text": "Pegar curativos",
+            "TargetId": 20501
+        },
+
+        {
+            "Sequence": 2,
+            "Text": "Pegar bisturi",
+            "TargetId": 20501
+        },
+
+        {
+            "Sequence": 3,
+            "Text": "Pegar pano",
+            "TargetId": 20501
+        },
+
+        {
+            "Sequence": 4,
+            "Text": "Pegar solução inflamável",
+            "TargetId": 20501
+        },
+
+        {
+            "Sequence": 5,
+            "Text": "Voltar atenção a Enfermaria",
+            "TargetId": 205
+        }
+    ]
+},
+
+{
+    "Id": 20502,
+    "Text": "Você trata seus ferimentos",
+    "TargetId": 205
+},
+
+{
+    "Id": 300,
+    "Text": "Corredor nível III: Dá acesso para:",
+    "Responses":
+    [
+        {
+            "Sequence": 1,
+            "Text": "Hangar",
+            "TargetId": 301
+        },
+
+        {
+            "Sequence": 2,
+            "Text": "Sala de Máquinas",
+            "TargetId": 302
+        },
+
+        {
+            "Sequence": 3,
+            "Text": "Depósito",
+            "TargetId": 303
+        },
+
+        {
+            "Sequence": 4,
+            "Text": "Câmara de Despressurização",
+            "TargetId": 304
+        },
+
+        {
+            "Sequence": 5,
+            "Text": "Elevador",
+            "TargetId": 99
+        }
+    ]
+}
+
+
 ]
