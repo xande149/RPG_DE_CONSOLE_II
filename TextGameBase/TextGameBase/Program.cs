@@ -50,4 +50,4 @@ do
     } while (!proceed);
 } while (!exit);
 
-Console.WriteLine("Fim de Jogo.");
+Console.WriteLine("Você morreu! Fim de Jogo.");

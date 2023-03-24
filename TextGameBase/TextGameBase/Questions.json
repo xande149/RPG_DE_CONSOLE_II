@@ -38,7 +38,7 @@
             {
                 "Sequence": 3,
                 "Text": "Você se levanta, procurando uma saída tentando não fazer barulho",
-                "TargetId": 3
+                "TargetId": 5
             }
         ]
     },
@@ -56,7 +56,7 @@
     },
     
     {
-        "Id": 3,
+        "Id": 5,
         "Text": "Ainda nauseabundo, tentando conter o medo você vagarosamente levanta\nSeus olhos vão se acostumando á escuridão e você nota\nCorpos de outros tripulantes pelo chão. você percebe uma porta, e vai até ela sem olhar para trás e evitando fazer qualquer tipo barulho\nVocê chega ao corredor do nivel II com exito sem chamar a atenção do inimigo desconhecido\nO ambiente está mais iluminado e você toma fôlego por um minuto",
         "TargetId": 200
     },
@@ -258,25 +258,58 @@
                   {
                     "sequence": 1,
                     "text": "Pegar Lanterna",
-                    "targetId": 40102
+                    "targetId": 40102,
+                    "Inventory":
+                        [
+                            {
+                                "Key": "Lanterna",
+                                "Name": "Lanterna",
+                                "Description": "Iluminação em locais escuros"
+                            }
+                        ]
+                        
                   },
 
                   {
                     "sequence": 2,
                     "text": "Pegar a coleção de revistas adultas",
-                    "targetId": 40102
+                    "targetId": 40102,
+                    "Inventory":
+                    [
+                        {
+                            "Key": "RevistasAdultas",
+                            "Name": "Revistas Adultas",
+                            "Description": "Revistas muito interessantes"
+                        }
+                    ]
                   },
 
                   {
                     "sequence": 3,
                     "text": "Pegar cigarros",
-                    "targetId": 40102
+                    "targetId": 40102,
+                    "Inventory":
+                    [
+                        {
+                            "Key": "Cigarros",
+                            "Name": "Cigarros",
+                            "Description": "O Cigarro de nicotina é altamente viciante"
+                        }
+                    ]
                   },
 
                   {
                     "sequence": 4,
                     "text": "Pegar comunicador",
-                    "targetId": 40102
+                    "targetId": 40102,
+                    "Inventory":
+                    [
+                        {
+                            "Key": "Comunicador",
+                            "Name": "Comunicador",
+                            "Description": "Serve para se comunicar com outras pessoas na nave"
+                        }
+                    ]
                   },
 
                   {
@@ -295,25 +328,57 @@
                   {
                     "sequence": 1,
                     "text": "Cuecas",
-                    "targetId": 20103
+                    "targetId": 20103,
+                    "Inventory":
+                    [
+                        {
+                            "Key": "Cuecas",
+                            "Name": "Cuecas",
+                            "Description": "Feitas de 100% algodão"
+                        }
+                    ]
                   },
 
                   {
                     "sequence": 2,
                     "text": "Cartão de Acesso",
-                    "targetId": 20103
+                    "targetId": 20103,
+                    "Inventory":
+                    [
+                        {
+                            "Key": "CartãoID",
+                            "Name": "Cartão de Acesso do Capitão",
+                            "Description": "Acesso a todas as salas bloqueadas"
+                        }
+                    ]
                   },
 
                   {
                     "sequence": 3,
                     "text": "Chicletes",
-                    "targetId": 20103
+                    "targetId": 20103,
+                    "Inventory":
+                    [
+                        {
+                            "Key": "Chiclete",
+                            "Name": "Chiclete",
+                            "Description": "Mascar chiclete pode ajudar no combate ao vício do cigarro"
+                        }
+                    ]
                   },
 
                   {
                     "sequence": 4,
                     "text": "Arma de fogo",
-                    "targetId": 20103
+                    "targetId": 20103,
+                    "Inventory":
+                    [
+                        {
+                            "Key": "Revolver",
+                            "Name": "Revolver",
+                            "Description": "Útil para se defender"
+                        }
+                    ]
                   },
 
                   {
@@ -394,7 +459,15 @@
             {
                 "Sequence": 3,
                 "Text": "Pegar litro de bebida",
-                "TargetId": 20303
+                "TargetId": 20303,
+                "Inventory":
+                [
+                    {
+                        "Key": "Garrafa",
+                        "Name": "Garrafa de vidro",
+                        "Description": "Há um pouco de Whiskey dentro da garrafa"
+                    }
+                ]
             },
 
             {
@@ -413,19 +486,43 @@
         {
             "Sequence": 1,
             "Text": "Pegar sanduíche",
-            "TargetId": 20301
+            "TargetId": 20301,
+            "Inventory":
+            [
+                {
+                    "Key": "Sanduiche",
+                    "Name": "Sanduiche",
+                    "Description": "Para fazer um lanche rápido"
+                }
+            ]
         },
 
         {
             "Sequence": 2,
             "Text": "Pegar Refrigerante",
-            "TargetId": 20301
+            "TargetId": 20301,
+            "Inventory":
+            [
+                {
+                    "Key": "Refri",
+                    "Name": "Refrigerante",
+                    "Description": "Uma bebida gaseificada não alcóolica"
+                }
+            ]
         },
 
         {
         "Sequence": 3,
         "Text": "Pegar água",
-        "TargetId": 20301
+        "TargetId": 20301,
+        "Inventory":
+        [
+            {
+                "Key": "Agua",
+                "Name": "Água",
+                "Description": "A melhor em termos de saúde"
+            }
+        ]
         },
 
         {
@@ -444,7 +541,15 @@
         {
             "Sequence": 1,
             "Text": "Pegar o isqueiro",
-            "TargetId": 20301
+            "TargetId": 20301,
+            "Inventory":
+            [
+                {
+                    "Key": "Isqueiro",
+                    "Name": "Isqueiro",
+                    "Description": "Para acender o fogo"
+                }
+            ]
         },
 
         {
@@ -533,25 +638,57 @@
         {
             "Sequence": 1,
             "Text": "Pegar curativos",
-            "TargetId": 20501
+            "TargetId": 20501,
+            "Inventory":
+            [
+                {
+                    "Key": "Curativos",
+                    "Name": "Curativos",
+                    "Description": "Para tratar algum ferimento leve"
+                }
+            ]
         },
 
         {
             "Sequence": 2,
             "Text": "Pegar bisturi",
-            "TargetId": 20501
+            "TargetId": 20501,
+            "Inventory":
+            [
+                {
+                    "Key": "Bisturi",
+                    "Name": "Bisturí",
+                    "Description": "Para cortes de precisão"
+                }
+            ]
         },
 
         {
             "Sequence": 3,
             "Text": "Pegar pano",
-            "TargetId": 20501
+            "TargetId": 20501,
+            "Inventory":
+            [
+                {
+                    "Key": "Pano",
+                    "Name": "Pano",
+                    "Description": "Pedaço de pano"
+                }
+            ]
         },
 
         {
             "Sequence": 4,
             "Text": "Pegar solução inflamável",
-            "TargetId": 20501
+            "TargetId": 20501,
+            "Inventory":
+            [
+                {
+                    "Key": "Inflamavel",
+                    "Name": "Solução Inflamável",
+                    "Description": "Pega fogo com facilidade"
+                }
+            ]
         },
 
         {

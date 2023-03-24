@@ -7,5 +7,10 @@
         public string? Text { get; set; }
 
         public List<Response>? Responses { get; set; }
+
+        public Question()
+{
+    Responses = new List<Response>();
+}
     }
 }
