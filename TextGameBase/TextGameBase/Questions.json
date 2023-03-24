@@ -58,13 +58,21 @@
     {
         "Id": 5,
         "Text": "Ainda nauseabundo, tentando conter o medo você vagarosamente levanta\nSeus olhos vão se acostumando á escuridão e você nota\nCorpos de outros tripulantes pelo chão. você percebe uma porta, e vai até ela sem olhar para trás e evitando fazer qualquer tipo barulho\nVocê chega ao corredor do nivel II com exito sem chamar a atenção do inimigo desconhecido\nO ambiente está mais iluminado e você toma fôlego por um minuto",
-        "TargetId": 200
+        "Responses": 
+        [
+            {
+                "Sequence": 1,
+                "Text": "continuar",
+                "TargetId": 200
+            }
+        ]
+        
     },
 
     {
             "Id": 99,
             "Text": "Elevador: O elevador dá acesso aos principais compartimentos da nave.\nSão eles:",
-            "Sequences":
+            "Responses":
     [
         {
             "Sequence": 1,
@@ -89,7 +97,7 @@
         {
             "Id": 100,
             "Text": "Corredor nível I: Dá acesso para:",
-            "Sequences":
+            "Responses":
         [
             {
                 "Sequence": 1,
@@ -240,6 +248,12 @@
                     "sequence": 1,
                     "text": "Deitar na beliche",
                     "targetId": 40103
+                  },
+
+                  {
+                    "sequence": 1,
+                    "text": "Voltar atenção para os quartos",
+                    "targetId": 201
                   }
                 ]
               },
